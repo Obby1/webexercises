@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>
+
+<ol>
+<li>HTTP is a protocol for transfering data securely across different devices. It stands for hyper text transfer protocol
+</li>
+<li>URL is text the specifies the hostname which will be used to retrieve data
+</li>
+<li>DNS (domain name system) converts the hostname into a server IP address, which is 4 numbers separated with a .
+</li>
+<li>A query string typically starts with a q or query and specifies some sort of data to search for. It is a series
+    of key value pairs. 
+</li>
+<li>Get and Set are the two most common http verbs. Get retrieves data from a server to be displayed and can be
+    accompanied by a query string. Set will manipulate some data on the server.
+    </li>
+<li>An HTTP request is sent from a client asking for information from a server. Typically in the form of a URL,
+    the request is sent by one computer to retreive data from a specific server. 
+    </li>
+<li>An HTTP response is the answer of a server to the HTTP requesting client. It is separated by different headers such as 
+    Accept-Language which specifies the language the HTTP request wants to view the information in. 
+    </li>
+<li>When you type a URL into a browser, the browser will attempt to send an HTTP request to the hostname and port based
+    on the URL. The data is typically transmitted through a series of routers until finally landing on the correct
+    hostname as specified by the URL. The HTTP requests including headers are responded to and eventually packaged by the requestors
+    browser into a DOM from the HTML. Additional resources are also requested to complete the request.
+    If the server does not have the requested information an error code
+    is returned typically a 404 or 4xx error stating the reason. A separate request is made for each resource. 
+    </li>
+</ol>
+
+<div>
+    <form action="http://localhost:8000/" method="GET">
+<input name="q" type="text" placeholder="something">
+<button type="submit">Search</button>
+</form>
+</div>
+
+
+
+
+
+    </p>
+    <script src="app.js"></script>
+</body>
+</html>
